@@ -68,7 +68,23 @@ a:hover {
     Padding-right: 120px;
 }
 
+.left-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .headline-2 {
     font-size: 25px;
 
 }
+.headline-3 {
+    font-size: 25px;
+}
+    
