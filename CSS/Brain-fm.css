@@ -3,13 +3,11 @@ head {
 }
 
 body {
-    margin: 0px 20px;
-    background-color: black;
+    background-color: rgba(73, 20, 248);
     font-family: Arial;
 }
 
 .section-1 {
-    background-color: blue;
     color: white;
     display: flex;
     flex-direction: row;
@@ -42,7 +40,6 @@ a:hover {
 }
 
 .section-2 {
-    background-color: blue;
     font-weight: bold;
     display: flex;
     flex-direction: row;
@@ -51,9 +48,7 @@ a:hover {
 }
 
 .section-3 {
-    background-color: blue;
     display: flex;
-   
     padding-left: 140px;
     Padding-right: 140px;
 }
