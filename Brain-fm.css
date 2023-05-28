@@ -3,29 +3,30 @@ head {
 }
 
 body {
-    margin: 0px;
-    font-family: Arial
+    background-color: rgba(73, 20, 248);
+    font-family: Arial;
 }
 
 .section-1 {
-    background-color: blue;
     color: white;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     align-items: center;
-
+    padding: 0px 60px 20px;
 }
 
 input[type='email'] {
     padding: 7px;
-    
 }
 
 input[type='button'] {
+    background-color: orange;
+    color: white;
     padding: 7px 20px;
     font-weight: bold;
     border: 0px;
-    border-radius: 15px;
+    border-radius: 44px;
+    margin: 8px 2px;
 }
 
 a:visited {
@@ -37,5 +38,58 @@ a:hover {
 }
 
 .headline-1 {
-    font-size: 40px;
+    font-size: 30px;
+}
+
+.section-2 {
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.section-3 {
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 50px 0px;
+}
+
+.left-side {
+    flex: 0 1 500px;
+	margin-right: 50px;
+}
+
+.right-side {
+    flex: 0 1 400px;
+}
+
+.headline-2 {
+    font-size: 25px;
+
+}
+
+.headline-3 {
+    font-size: 25px;
+}
+
+.headline-4 {
+    font-size: 15px;
+    color:rgb(190, 183, 214);
+    margin-bottom: 3px;
+}
+
+.headline-5 {
+    font-size: 17px;
+    color: rgb(200, 162, 200);
+}
+
+.left-side-text {
+    flex: 0 0 450px;
+    /* width: 400px; */
+}
+
+.image-2 {
+    flex: 0 1 900px;
 }
